@@ -238,7 +238,7 @@ $rslt = mysqli_query($db, "SELECT * from user u,produit p WHERE u.id = p.user_id
                     <div class="grid-metro-item cat--1 cat--3">
                         <div class="product-style-one no-overlay">
                             <div class="card-thumbnail">
-                                <a href="product-details.html">
+                                <a href="produit-details.php?id=<?php echo $id; ?>">
 
                                                   <?php
                                      while ($p = mysqli_fetch_array($prod1)) {
